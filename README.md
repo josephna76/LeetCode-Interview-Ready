@@ -1,39 +1,46 @@
-# Study-LeetCode
+# LeetCodeInterviewReady
 
-## Description
+## Your Comprehensive Code Practice Platform for Technical Interviews
 
-This repository is dedicated to my journey through solving problems on LeetCode. It's not just a collection of solutions, but a testament to an organized workflow and a practice arena for setting up classes, creating custom test cases, handling edge cases, and executing code via the command line.
+Welcome to LeetCodeInterviewReady, your comprehensive code practice platform designed to prepare you effectively for technical interviews. This repository is tailored to help you excel in your preferred code editor, emphasizing the creation of custom test cases, running code from the terminal, and applying Object-Oriented Programming (OOP) principles. LeetCode's online editor abstracts away skills such as creating, linking and running test cases - which are all typically tested in coding interviews. This repo provides handy scripts to automate boilerplate and examples to ensure you're ready for any bare-bones environment on interview day.
 
-## Purpose
+## What is LeetCodeInterviewReady?
 
-The primary goals of this repository are:
+LeetCodeInterviewReady is your personal workspace to practice and enhance your coding skills, with a strong emphasis on interview preparation. Here's how it can benefit you:
 
-- **Tracking Progress**: Documenting my progress on LeetCode problems.
-- **Demonstrating Organized Workflow**: Showcasing a professional and systematic approach to problem-solving.
-- **Practice and Learning**: Improving my skills in setting up classes, writing comprehensive test cases, and understanding edge cases.
-- **Command Line Proficiency**: Running and testing code using command line interfaces.
+### 1. Bare Bones Practice
 
-## Repository Structure
+We recognize the importance of being well-prepared to thrive in various coding environments. LeetCodeInterviewReady allows you to practice coding in different editors, ensuring you're ready for interviews that may require running your code independently.
 
-- `src/`: Contains all the source code files, organized by problem categories.
-- `tests/`: Includes test cases for each problem, emphasizing on covering edge cases.
-- `docs/`: Any documentation or notes related to the problems or concepts.
-- `utils/`: Utility scripts and common modules used across different solutions.
+### 2. Crafting Custom Test Cases
 
-## How to Use
+Master the skill of creating tailored test cases for your code. Delve into edge cases and rigorous testing independently, essential skills for interviews.
 
-To run a solution:
+### 3. Command Line Mastery
+
+Hone your ability to execute and test code directly from the command line. Interviews may not provide a full development environment, and we'll empower you to navigate this challenge with confidence.
+
+## How to Use LeetCodeInterviewReady
+
+Getting started is easy:
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/[your-username]/study-leetcode.git
+   git clone https://github.com/[your-username]/LeetCodeInterviewReady.git
    ```
+
+   Repository Structure
+
+   - `src/`: Contains all the source code files, organized by problem categories.
+   - `tests/`: Includes test cases for each problem, emphasizing on covering edge cases.
+   - `docs/`: Any documentation or notes related to the problems or concepts.
+   - `utils/`: Utility scripts and common modules used across different solutions.
 
 2. Navigate to the `src/` directory:
 
    ```bash
-   cd study-leetcode/src
+   cd LeetCodeInterviewReady/src
    ```
 
 3. Run the addnew.py script to create files for a new problem:
@@ -48,10 +55,10 @@ To run a solution:
 
 To run tests:
 
-1. Ensure you are in the root directory of the project (`study-leetcode`):
+1. Ensure you are in the root directory of the project (`LeetCodeInterviewReady`):
 
    ```bash
-   cd path/to/study-leetcode
+   cd path/to/LeetCodeInterviewReady
    ```
 
 2. Run the test file for a specific problem using Python's `-m` flag. Replace `[problem-name]` with the actual name of the problem:
