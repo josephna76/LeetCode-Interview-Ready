@@ -44,16 +44,22 @@ To run a solution:
 
 To run tests:
 
-1. Navigate to the `tests/` directory:
+1. Ensure you are in the root directory of the project (`study-leetcode`):
 
    ```bash
-   cd study-leetcode/tests
+   cd path/to/study-leetcode
    ```
 
-2. Run the test file for a specific problem:
+2. Run the test file for a specific problem using Python's `-m` flag. Replace `[problem-name]` with the actual name of the problem:
 
    ```bash
-   python test_[problem-name].py
+   python -m unittest tests.test_[problem-name]
+   ```
+
+   For example, if you have a test file named `test_keys_and_rooms.py` in the `tests` directory, you would run:
+
+   ```bash
+   python -m unittest tests.test_keys_and_rooms
    ```
 
 ## Contributing
