@@ -4,15 +4,22 @@ def maximum_average_subarray_i(nums, k):
 
     Subarray questions tend to be handled with sliding windows. We'll move this window through the array nums and return the maximum average.
     """
-    window_product = 1
-    for number in nums[: k - 1]:
-        window_product *= number
+    window_sum = sum(nums[:k])  # Initialize with the sum of the first k elements
+
+    max_average = window_sum / k  # Initialize the maximum average
 
     left_index = 1
     right_index = k
-    for number in nums[left_index:right_index]:
-        window_product = max(
-            window_product, (window_product / nums[left_index]) * nums[right_index]
-        )
 
-    return round(window_product / k, 5)
+    while right_index < len(nums):
+        window_sum += (
+            nums[right_index] - nums[left_index - 1]
+        )  # Update the window sum efficiently
+        max_average = max(
+            max_average, window_sum / k
+        )  # Update the maximum average if necessary
+
+        left_index += 1
+        right_index += 1
+
+    return round(max_average, 5)
