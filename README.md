@@ -17,8 +17,8 @@ The primary goals of this repository are:
 
 - `src/`: Contains all the source code files, organized by problem categories.
 - `tests/`: Includes test cases for each problem, emphasizing on covering edge cases.
-- `utils/`: Utility scripts and common modules used across different solutions.
 - `docs/`: Any documentation or notes related to the problems or concepts.
+- `utils/`: Utility scripts and common modules used across different solutions.
 
 ## How to Use
 
@@ -36,11 +36,15 @@ To run a solution:
    cd study-leetcode/src
    ```
 
-3. Run the desired solution file:
+3. Run the addnew.py script to create files for a new problem:
 
    ```bash
-   python [solution-file].py
+   python addnew.py
    ```
+
+   Follow the prompts to enter the question title (e.g., "841. Keys and Rooms"). The script will generate appropriately named documentation, source code, and test files.
+
+4. Solve the question in the src/ file. Create tests in the tests/ file. Write optional documentation in the docs/ file.
 
 To run tests:
 
@@ -61,6 +65,27 @@ To run tests:
    ```bash
    python -m unittest tests.test_keys_and_rooms
    ```
+
+## Understanding Test Results
+
+When running unit tests using the `unittest` library in Python, you will see two symbols that indicate the results of test cases:
+
+- `.` (Dot):
+
+  - A `.` represents a successful test case execution without any errors or failures.
+  - Each `.` corresponds to a single test method or test case that has executed successfully.
+  - These dots are displayed to provide a visual progress indicator for the test suite.
+
+  Example:
+  `......`
+
+- `E` (Error):
+- An `E` indicates that a test case encountered an unexpected error during execution.
+- Errors can occur for various reasons, such as unhandled exceptions, assertion failures, or other runtime issues.
+- The `E` symbol indicates that a test case failed due to an unexpected error.
+
+  Example:
+  `..E...`
 
 ## Contributing
 
