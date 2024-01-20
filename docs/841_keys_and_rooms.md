@@ -63,3 +63,9 @@ def canVisitAllRooms(rooms):
 
 - **Time Complexity:** O(N), where N is the number of rooms. Each room is visited exactly once in the worst case.
 - **Space Complexity:** O(N) for storing the visited set.
+
+## Running the Tests
+
+```bash
+python -m unittest tests/test_keys_and_rooms.py
+```

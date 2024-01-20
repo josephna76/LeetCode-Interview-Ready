@@ -1,22 +1,21 @@
 import unittest
 from src.keys_and_rooms import canVisitAllRooms
-from utils.utils import print_colored
 
 
 class TestKeysAndRooms(unittest.TestCase):
     def test_all_rooms_accessible(self):
-        result = canVisitAllRooms([[1], [2], [3], []])
-        message = "Test All Rooms Accessible: Expected True, got {}".format(result)
-        print_colored(message, "pass" if result else "fail")
-        self.assertTrue(result)
+        """
+        Test if all rooms are accessible when they should be.
+        """
+        self.assertTrue(canVisitAllRooms([[1], [2], [3], []]))
 
     def test_some_rooms_inaccessible(self):
-        result = canVisitAllRooms([[1, 3], [3, 0, 1], [2], [0]])
-        message = "Test Some Rooms Inaccessible: Expected False, got {}".format(result)
-        print_colored(message, "pass" if not result else "fail")
-        self.assertFalse(result)
+        """
+        Test if the function correctly identifies when not all rooms are accessible.
+        """
+        self.assertFalse(canVisitAllRooms([[1, 3], [3, 0, 1], [2], [0]]))
 
-    # ... (other tests follow the same pattern)
+    # Additional test methods can be added here
 
 
 if __name__ == "__main__":
