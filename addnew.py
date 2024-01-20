@@ -1,6 +1,3 @@
-import os
-
-
 def create_files(question_name):
     # Split the input question name into number and lowercase name
     number, name = question_name.split(". ", 1)
