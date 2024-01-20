@@ -53,7 +53,7 @@ Getting started is easy:
 
 4. Solve the question in the src/ file. Create tests in the tests/ file. Write optional documentation in the docs/ file.
 
-To run tests:
+**To run tests:**
 
 1. Ensure you are in the root directory of the project (`LeetCode-Interview-Ready`):
 
