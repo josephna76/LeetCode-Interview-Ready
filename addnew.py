@@ -71,7 +71,7 @@ def create_files(question_name):
 
     # Create the src file with a function and input
     with open(src_filename, "w") as src_file:
-        src_file.write(f"def {name}(rooms):\n")
+        src_file.write(f"def {name}(arguments here):\n")
         src_file.write(f'    """\n')
         src_file.write(f"    Your function description here.\n")
         src_file.write(f'    """\n')
