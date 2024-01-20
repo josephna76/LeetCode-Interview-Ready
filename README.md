@@ -1,16 +1,16 @@
-# LeetCodeInterviewReady
+# LeetCode-Interview-Ready
 
 ## Your Comprehensive Code Practice Platform for Technical Interviews
 
-Welcome to LeetCodeInterviewReady, your comprehensive code practice platform designed to prepare you effectively for technical interviews. This repository is tailored to help you excel in your preferred code editor, emphasizing the creation of custom test cases, running code from the terminal, and applying Object-Oriented Programming (OOP) principles. LeetCode's online editor abstracts away skills such as creating, linking and running test cases - which are all typically tested in coding interviews. This repo provides handy scripts to automate boilerplate and examples to ensure you're ready for any bare-bones environment on interview day.
+Welcome to LeetCode-Interview-Ready, your comprehensive code practice platform designed to prepare you effectively for technical interviews. This repository is tailored to help you excel in your preferred code editor, emphasizing the creation of custom test cases, running code from the terminal, and applying Object-Oriented Programming (OOP) principles. LeetCode's online editor abstracts away skills such as creating, linking and running test cases - which are all typically tested in coding interviews. This repo provides handy scripts to automate boilerplate and examples to ensure you're ready for any bare-bones environment on interview day.
 
-## What is LeetCodeInterviewReady?
+## What is LeetCode-Interview-Ready?
 
-LeetCodeInterviewReady is your personal workspace to practice and enhance your coding skills, with a strong emphasis on interview preparation. Here's how it can benefit you:
+LeetCode-Interview-Ready is your personal workspace to practice and enhance your coding skills, with a strong emphasis on interview preparation. Here's how it can benefit you:
 
 ### 1. Bare Bones Practice
 
-We recognize the importance of being well-prepared to thrive in various coding environments. LeetCodeInterviewReady allows you to practice coding in different editors, ensuring you're ready for interviews that may require running your code independently.
+We recognize the importance of being well-prepared to thrive in various coding environments. LeetCode-Interview-Ready allows you to practice coding in different editors, ensuring you're ready for interviews that may require running your code independently.
 
 ### 2. Crafting Custom Test Cases
 
@@ -20,14 +20,14 @@ Master the skill of creating tailored test cases for your code. Delve into edge 
 
 Hone your ability to execute and test code directly from the command line. Interviews may not provide a full development environment, and we'll empower you to navigate this challenge with confidence.
 
-## How to Use LeetCodeInterviewReady
+## How to Use LeetCode-Interview-Ready
 
 Getting started is easy:
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/[your-username]/LeetCodeInterviewReady.git
+   git clone https://github.com/[your-username]/LeetCode-Interview-Ready.git
    ```
 
    Repository Structure
@@ -40,7 +40,7 @@ Getting started is easy:
 2. Navigate to the `src/` directory:
 
    ```bash
-   cd LeetCodeInterviewReady/src
+   cd LeetCode-Interview-Ready/src
    ```
 
 3. Run the addnew.py script to create files for a new problem:
@@ -55,10 +55,10 @@ Getting started is easy:
 
 To run tests:
 
-1. Ensure you are in the root directory of the project (`LeetCodeInterviewReady`):
+1. Ensure you are in the root directory of the project (`LeetCode-Interview-Ready`):
 
    ```bash
-   cd path/to/LeetCodeInterviewReady
+   cd path/to/LeetCode-Interview-Ready
    ```
 
 2. Run the test file for a specific problem using Python's `-m` flag. Replace `[problem-name]` with the actual name of the problem:
